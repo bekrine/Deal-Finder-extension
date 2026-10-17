@@ -1,0 +1,6 @@
+{
+  "name": "Deal Finder - Chrome Extension",
+  "description": "Chrome Extension for instant shopping deals and price comparison across online stores with Manifest V3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

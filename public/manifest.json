@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Deal Finder - Shop & Price Search",
+  "version": "1.0.0",
+  "description": "Find the best shopping deals across online stores with instant price comparison and relevance ranking.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Deal Finder",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://google.serper.dev/*",
+    "https://serpapi.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
